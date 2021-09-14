@@ -1,5 +1,5 @@
 test = {   'name': 'q6_1',
-    'points': 1,
+    'points': None,
     'suites': [   {   'cases': [   {'code': '>>> str(P_S) == "P_S"\nTrue', 'hidden': False, 'locked': False},
                                    {'code': '>>> str(Q_S) == "Q_S"\nTrue', 'hidden': False, 'locked': False},
                                    {'code': '>>> type(P_S) == sympy.Symbol\nTrue', 'hidden': False, 'locked': False},
