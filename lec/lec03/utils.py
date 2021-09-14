@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib import patches
-import csaps
+from csaps import csaps
 
 def firm_behaviour(price, individual_firm_costs):
     fig = plt.figure()
@@ -11,7 +11,7 @@ def firm_behaviour(price, individual_firm_costs):
     
     output = individual_firm_costs.column("Output")[1:]
     mc = individual_firm_costs.column("Marginal Cost")[1:]
-    sp_mc = csaps.csaps(output, mc, smooth=0.85)
+    sp_mc = csaps(output, mc, smooth=0.85)
     output_s = np.linspace(output.min(), output.max(), 150)
     mc_s = sp_mc(output_s)
 
