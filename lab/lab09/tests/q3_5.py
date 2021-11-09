@@ -1,0 +1,10 @@
+test = {   'name': 'q3_5',
+    'points': [0, 0.33, 0.33, 0.33],
+    'suites': [   {   'cases': [   {'code': '>>> assert q3_5 < 0\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert q3_5 < -200\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert q3_5 < -20000\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert q3_5 > -30000\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
